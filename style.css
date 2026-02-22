@@ -263,3 +263,42 @@ section {
   }
 
 }
+@media (max-width: 480px) {
+
+  body {
+    padding-top: 10px;
+  }
+
+  nav {
+    top: 10px;
+    width: 94%;
+  }
+
+  #intro {
+    padding: 100px 15px 60px;
+  }
+
+  #intro h1 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  #intro h2 {
+    font-size: 20px;
+  }
+
+  #intro p {
+    font-size: 14px;
+  }
+
+  .btnn {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btnn a {
+    width: 100%;
+    text-align: center;
+  }
+
+}
