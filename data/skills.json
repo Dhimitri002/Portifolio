@@ -1,0 +1,50 @@
+[
+  {
+    "name": "HTML5",
+    "category": "Front-end",
+    "level": 92,
+    "description": "Estrutura sólida e semântica moderna para páginas com presença visual." 
+  },
+  {
+    "name": "CSS3",
+    "category": "Front-end",
+    "level": 90,
+    "description": "Estilos premium com animações, gradientes, vidro fosco e painéis sci-fi." 
+  },
+  {
+    "name": "JavaScript",
+    "category": "Front-end",
+    "level": 88,
+    "description": "Interação inteligente, filtros, modais e experiência dinâmica." 
+  },
+  {
+    "name": "TypeScript",
+    "category": "Desenvolvimento",
+    "level": 76,
+    "description": "Segurança de tipos aplicável quando necessário em fluxos modernos." 
+  },
+  {
+    "name": "Python",
+    "category": "Back-end / IA",
+    "level": 94,
+    "description": "Automação, bots e protótipos de IA com lógica sólida." 
+  },
+  {
+    "name": "UI/UX",
+    "category": "Design",
+    "level": 91,
+    "description": "Construção de interfaces com estética autoral e alto padrão de usabilidade." 
+  },
+  {
+    "name": "Bots",
+    "category": "Automação",
+    "level": 89,
+    "description": "Assistentes e sistemas conversacionais com fluxo inteligente." 
+  },
+  {
+    "name": "IA",
+    "category": "Inovação",
+    "level": 82,
+    "description": "Exploração de processos criativos e experiências assistidas por IA." 
+  }
+]

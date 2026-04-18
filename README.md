@@ -1,20 +1,67 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Portfólio Haru
 
-# Run and deploy your AI Studio app
+Portfólio estático de Dhimitri "Haru" Carvalho, criado para ser uma experiência digital viva, autoral e pronta para GitHub Pages.
 
-This contains everything you need to run your app locally.
+## Estrutura do projeto
 
-View your app in AI Studio: https://ai.studio/apps/488626e3-3459-42f9-bc1f-f52ab76d9dab
+- `index.html` — página principal.
+- `css/` — estilos principais, temas, animações e responsividade.
+- `js/` — lógica do site, dados, autenticação, configurações e UI.
+- `data/` — conteúdo em JSON para perfil, projetos, habilidades, contatos, timeline, serviços e estatísticas.
+- `images/` — imagens de suporte e capas de projeto.
+- `.nojekyll` — evita processamento Jekyll no GitHub Pages.
 
-## Run Locally
+## Como usar
 
-**Prerequisites:**  Node.js
+### Abrir localmente
+1. Abra `index.html` diretamente no navegador, ou
+2. Use um servidor local como:
+   ```bash
+   python3 -m http.server 8000
+   ```
+3. Acesse `http://localhost:8000`
 
+### Editar conteúdo
+- `data/profile.json` — dados pessoais e informações de introdução.
+- `data/projects.json` — projetos, tags, links e status.
+- `data/skills.json` — habilidades e proficiências.
+- `data/socials.json` — contatos e links.
+- `data/timeline.json` — marcos de evolução.
+- `data/services.json` — serviços oferecidos.
+- `data/stats.json` — métricas e indicadores.
+- `data/settings.json` — presets e preferências de tema.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Editar cores e temas
+- Estilos base em `css/main.css`
+- Temas em `css/themes.css`
+- Animações em `css/animations.css`
+- Responsividade em `css/responsive.css`
+
+### Painel admin e login local
+- Clique em `Login` no topo.
+- Usuário: `haru`
+- Senha: `anime2026`
+- Após entrar, o painel admin permite editar conteúdo e exportar/importar configurações.
+- O login é local e preservado no navegador via `localStorage`.
+
+### Exportar/importar configurações
+- Abra o painel de configurações e use o botão `Exportar JSON`.
+- Para importar, selecione um arquivo JSON válido criado pelo site.
+- Use `Restaurar padrão` para reverter o tema para o estado inicial.
+
+## Deploy no GitHub Pages
+1. Commit e envie para a branch `main`.
+2. No repositório GitHub, ative o GitHub Pages apontando para a branch `main` / pasta raiz.
+3. O arquivo `.nojekyll` já está presente para evitar transformações de arquivos.
+
+## Observações técnicas
+- Este projeto usa JavaScript puro para manter leveza e compatibilidade com páginas estáticas.
+- Os conteúdos são carregados dinamicamente a partir de arquivos JSON locais.
+- O sistema de login e o painel admin são implementados apenas como camada front-end.
+- O site segue uma estética escura, com cores vermelho vinho, ciano e efeitos futuristas.
+
+## Como contribuir
+- Adicionar novos projetos em `data/projects.json`.
+- Atualizar imagens em `images/` e ajustar as referências nos JSONs.
+- Refinar o visual em `css/main.css` e `css/themes.css`.
+- Expandir o painel admin com edição direta de JSON.

@@ -1,16 +1,255 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Haru | Desenvolvedor & Criador</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Haru | Portfólio Digital</title>
+  <meta name="description" content="Portfólio de Dhimitri 'Haru' Carvalho: programador criativo, criador de IA, desenvolvedor de bots e designer digital." />
+  <meta property="og:title" content="Haru | Portfólio Digital" />
+  <meta property="og:description" content="Uma presença digital viva para Dhimitri 'Haru' Carvalho: tecnologia, anime e criação de experiências." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/pythonAI.jpeg" />
+  <meta property="og:url" content="https://dhimitri002.github.io/Portifolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Haru | Portfólio Digital" />
+  <meta name="twitter:description" content="Uma presença digital viva para Dhimitri 'Haru' Carvalho: tecnologia, anime e criação de experiências." />
+  <meta name="theme-color" content="#0a0812" />
+  <link rel="icon" type="image/png" href="images/app.svg" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body class="theme-anime" data-theme="anime">
+  <div class="page-shell">
+    <header class="topbar" id="topbar" aria-label="Navegação principal">
+      <div class="brand-panel">
+        <button class="brand-logo" id="logoButton" aria-label="Acesso ao painel de controle">
+          <span class="brand-mark">H</span>
+          <span class="brand-name">Haru</span>
+        </button>
+      </div>
+      <nav class="site-nav" aria-label="Menu principal">
+        <ul class="nav-list" id="navList">
+          <li><a href="#hero" data-section="hero">Início</a></li>
+          <li><a href="#about" data-section="about">Sobre</a></li>
+          <li><a href="#skills" data-section="skills">Habilidades</a></li>
+          <li><a href="#featured" data-section="featured">Destaques</a></li>
+          <li><a href="#projects" data-section="projects">Projetos</a></li>
+          <li><a href="#contact" data-section="contact">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="topbar-actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Alternar tema">Tema</button>
+        <button class="icon-btn" id="settingsToggle" aria-label="Abrir configurações">Config</button>
+        <button class="action-btn primary" id="loginButton">Login</button>
+      </div>
+    </header>
 
+    <main>
+      <section class="hero section-panel" id="hero">
+        <div class="hero-shape hero-shape--left"></div>
+        <div class="hero-shape hero-shape--right"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow">Presença digital viva</span>
+            <h1>Dhimitri “Haru” Carvalho</h1>
+            <p class="hero-text">Programador criativo, arquiteto de interfaces futuristas, criador de IA e designer de experiências com alma. Minha energia é construir projetos que parecem personagens digitais.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#featured">Ver Projetos</a>
+              <a class="button button-ghost" href="#contact">Contato</a>
+            </div>
+            <div class="hero-badges" aria-label="Badges de habilidades">
+              <span>Python</span>
+              <span>IA</span>
+              <span>UI/UX</span>
+              <span>Bots</span>
+              <span>Anime Mode</span>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-card hero-card--glow">
+              <div class="hero-card__inner">
+                <img src="images/eu1.jpeg" alt="Retrato de Haru" />
+                <div class="hero-card__stats">
+                  <div><strong>7+</strong><span>anos cria</span></div>
+                  <div><strong>22</strong><span>projetos</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-panel" id="about">
+        <div class="section-head"><span>01</span><h2>Sobre mim</h2></div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>Eu sou Dhimitri, também conhecido como Haru. Programador e criador digital com alma de storyteller, construo experiências que misturam lógica e emoção. Vivo entre código, tarot negro, ukulele e inteligência artificial.</p>
+            <p>Minha jornada une tecnologia e sensibilidade. Trabalho com automação, bots, interfaces de alto impacto e projetos experimentais que exploram identidade, animação e presença digital.</p>
+            <p>Sou noivo, pansexual e não binário. Minha abordagem é intencional: cada projeto nasce para ser uma peça autoral, elegante e com energia própria.</p>
+          </div>
+          <div class="about-cards">
+            <article class="info-card">
+              <h3>Visão</h3>
+              <p>Transformar ideias soltas em ambientes digitais que parecem vivos, conectando técnica e arte.</p>
+            </article>
+            <article class="info-card">
+              <h3>Missão</h3>
+              <p>Projetar experiências web com presença, profundidade e estética anime futurista, sem perder a usabilidade.</p>
+            </article>
+            <article class="info-card">
+              <h3>Estilo</h3>
+              <p>Interface escura, contrastes rubi, glow sutil, painéis com aura e animações que revelam personalidade.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-panel" id="skills">
+        <div class="section-head"><span>02</span><h2>Habilidades</h2></div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </section>
+
+      <section class="section-panel" id="featured">
+        <div class="section-head"><span>03</span><h2>Projetos em destaque</h2></div>
+        <div class="featured-grid" id="featuredProjects"></div>
+      </section>
+
+      <section class="section-panel" id="projects">
+        <div class="section-head"><span>04</span><h2>Lista de projetos</h2></div>
+        <div class="project-controls">
+          <input type="search" id="projectSearch" placeholder="Buscar projetos, tags ou tecnologias" aria-label="Buscar projetos" />
+          <div class="filter-group">
+            <select id="projectStatusFilter" aria-label="Filtrar por status">
+              <option value="all">Todos</option>
+              <option value="Concluído">Concluídos</option>
+              <option value="Em andamento">Em andamento</option>
+              <option value="Experimental">Experimental</option>
+            </select>
+            <button class="button button-ghost" id="clearFilters">Limpar</button>
+          </div>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </section>
+
+      <section class="section-panel" id="timeline">
+        <div class="section-head"><span>05</span><h2>Linha do tempo</h2></div>
+        <div class="timeline-list" id="timelineList"></div>
+      </section>
+
+      <section class="section-panel" id="services">
+        <div class="section-head"><span>06</span><h2>Serviços</h2></div>
+        <div class="services-grid" id="servicesGrid"></div>
+      </section>
+
+      <section class="section-panel stats-panel" id="stats">
+        <div class="section-head"><span>07</span><h2>Estatísticas</h2></div>
+        <div class="stats-grid" id="statsGrid"></div>
+      </section>
+
+      <section class="section-panel" id="contact">
+        <div class="section-head"><span>08</span><h2>Contato</h2></div>
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <p>Vamos fazer sua presença digital ter corpo e alma. Se quiser conversar sobre IA, bots, design ou tarot, meu canal está aberto.</p>
+            <div class="contact-links" id="contactLinks"></div>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <label for="nameInput">Seu nome</label>
+            <input type="text" id="nameInput" name="name" required />
+            <label for="emailInput">Email</label>
+            <input type="email" id="emailInput" name="email" required />
+            <label for="messageInput">Mensagem</label>
+            <textarea id="messageInput" name="message" rows="5" required></textarea>
+            <button type="submit" class="button button-primary">Enviar mensagem</button>
+            <p class="form-note">As mensagens são simuladas localmente — a experiência funciona sem backend.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p>Haru — experiência autoral.</p>
+        <p>Pronto para GitHub Pages e evoluir como presença digital.</p>
+      </div>
+      <button class="button button-ghost" id="backToTop">Voltar ao topo</button>
+    </footer>
+  </div>
+
+  <div class="modal-overlay hidden" id="loginModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+      <button class="modal-close" id="closeLogin" aria-label="Fechar login">×</button>
+      <h2 id="loginTitle">Acesso interno</h2>
+      <p>Entre no painel local para editar visual, temas e projetos. Aqui, o controle é seu.</p>
+      <form id="loginForm">
+        <label for="loginUser">Usuário</label>
+        <input id="loginUser" name="loginUser" type="text" autocomplete="username" required />
+        <label for="loginPassword">Senha</label>
+        <div class="password-field">
+          <input id="loginPassword" name="loginPassword" type="password" autocomplete="current-password" required />
+          <button type="button" class="icon-btn mini" id="togglePassword" aria-label="Mostrar senha">👁</button>
+        </div>
+        <label class="checkbox-field"><input type="checkbox" id="rememberMe" /> Lembrar acesso</label>
+        <button type="submit" class="button button-primary">Entrar</button>
+        <p class="login-status" id="loginStatus"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal-overlay hidden" id="settingsModal" aria-hidden="true">
+    <div class="modal-card modal-card--wide" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+      <button class="modal-close" id="closeSettings" aria-label="Fechar configurações">×</button>
+      <h2 id="settingsTitle">Configurações</h2>
+      <div class="settings-grid">
+        <div class="setting-panel">
+          <h3>Tema principal</h3>
+          <div class="theme-options" id="themeOptions"></div>
+        </div>
+        <div class="setting-panel">
+          <h3>Opções visuais</h3>
+          <label><span>Partículas</span><input type="range" id="particlesIntensity" min="0" max="100" value="65" /></label>
+          <label><span>Glow</span><input type="range" id="glowIntensity" min="0" max="100" value="82" /></label>
+          <label><span>Animações</span><input type="range" id="motionIntensity" min="0" max="100" value="90" /></label>
+        </div>
+        <div class="setting-panel">
+          <h3>Modos</h3>
+          <div class="mode-buttons" id="modeButtons"></div>
+        </div>
+      </div>
+      <div class="settings-actions">
+        <button class="button button-secondary" id="resetSettings">Restaurar padrão</button>
+        <button class="button button-primary" id="exportSettings">Exportar JSON</button>
+        <button class="button button-ghost" id="importSettings">Importar JSON</button>
+      </div>
+      <input type="file" id="importSettingsFile" accept="application/json" class="hidden" />
+    </div>
+  </div>
+
+  <div class="modal-overlay hidden" id="adminModal" aria-hidden="true">
+    <div class="modal-card modal-card--wide" role="dialog" aria-modal="true" aria-labelledby="adminTitle">
+      <button class="modal-close" id="closeAdmin" aria-label="Fechar painel admin">×</button>
+      <h2 id="adminTitle">Painel Admin</h2>
+      <p class="admin-intro">Editar conteúdo local, temas e projetos com controle direto do navegador.</p>
+      <div class="admin-tabs" id="adminTabs">
+        <button data-tab="content" class="active">Conteúdo</button>
+        <button data-tab="projects">Projetos</button>
+        <button data-tab="appearance">Aparência</button>
+        <button data-tab="backup">Backup</button>
+      </div>
+      <div class="admin-panel" id="adminPanel"></div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toastContainer" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/ui.js" defer></script>
+  <script src="js/settings.js" defer></script>
+  <script src="js/auth.js" defer></script>
+  <script src="js/projects.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
