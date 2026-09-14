@@ -1,0 +1,97 @@
+/* Responsividade Mobile-First & Breakpoints */
+
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    text-align: center;
+  }
+
+  .hero-visual {
+    order: -1;
+  }
+
+  .hero-ctas,
+  .hero-badges-wrap {
+    justify-content: center;
+  }
+
+  .bio-layout,
+  .family-cards-grid,
+  .contact-layout,
+  .spirit-photos-grid,
+  .ukulele-videos-grid,
+  .flora-showcase-box {
+    grid-template-columns: 1fr;
+  }
+
+  .spirit-principles-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-shell {
+    padding: 0 16px 140px;
+  }
+
+  .topbar {
+    top: 8px;
+    padding: 10px 14px;
+    border-radius: 16px;
+    flex-wrap: wrap;
+  }
+
+  .tabs-navigation-wrapper {
+    top: 76px;
+  }
+
+  .tab-section {
+    padding: 24px 18px;
+    border-radius: 20px;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-role {
+    font-size: 1.1rem;
+  }
+
+  .avatar-halo-wrap {
+    width: 260px;
+    height: 310px;
+  }
+
+  .section-title {
+    font-size: 1.55rem;
+  }
+
+  .ambient-player-dock {
+    bottom: 14px;
+    right: 14px;
+    left: 14px;
+  }
+
+  .player-body {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .toast-container {
+    bottom: 80px;
+    left: 14px;
+    right: 14px;
+  }
+
+  .pix-key-box {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .pix-actions-row {
+    flex-direction: column;
+  }
+}

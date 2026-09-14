@@ -1,0 +1,82 @@
+[
+  {
+    "id": "photo-aviator",
+    "src": "perfil/AD76CB4E-C351-42B3-9CD5-72861AC681C4.jpg",
+    "title": "Presença & Identidade",
+    "category": "Pessoal",
+    "tag": "Estilo",
+    "description": "Dhimitri em momento marcante: óculos aviador amarelo, corrente e guias sagradas no peito."
+  },
+  {
+    "id": "photo-axe",
+    "src": "perfil/954CD57E-8C00-4036-A0D7-41D6BBA20167.jpg",
+    "title": "Axé & Mediunidade",
+    "category": "Espiritualidade",
+    "tag": "Terreiro",
+    "description": "Retrato autêntico ao sol com as guias de Umbanda, manifestando fé e proteção."
+  },
+  {
+    "id": "photo-xadrez",
+    "src": "perfil/3BBA1931-A2B9-48EA-831E-B13DDD3C8CB9.jpg",
+    "title": "Vibe Criativa & Urbana",
+    "category": "Pessoal",
+    "tag": "Retrato",
+    "description": "Camisa xadrez vermelha, corrente de prata e postura de quem está pronto para construir o futuro."
+  },
+  {
+    "id": "photo-clean",
+    "src": "perfil/AAB15AF5-CB50-45B5-8731-E93F28C18B6D.jpg",
+    "title": "Foco & Imersão",
+    "category": "Pessoal",
+    "tag": "Estúdio",
+    "description": "Retrato limpo com fones de ouvido: mente focada no próximo grande projeto."
+  },
+  {
+    "id": "ui-anisite",
+    "src": "images/IMG_0150.JPG",
+    "title": "AniSite — UI Design Jujutsu Kaisen",
+    "category": "Design & UI",
+    "tag": "Anime UI",
+    "description": "Conceito de plataforma de streaming com hierarquia visual escura e foco em experiência do usuário."
+  },
+  {
+    "id": "ui-miku",
+    "src": "images/IMG_0152.JPG",
+    "title": "Miku UI — Dashboard Glassmorphism",
+    "category": "Design & UI",
+    "tag": "Interface",
+    "description": "Interface clara em tons ciano, inspirada em Hatsune Miku com cards translúcidos."
+  },
+  {
+    "id": "ui-yae",
+    "src": "images/IMG_0154.JPG",
+    "title": "Yae Miko — Mobile & Web Card System",
+    "category": "Design & UI",
+    "tag": "Genshin",
+    "description": "Design responsivo em tons rosados e estética premium de personagens virtuais."
+  },
+  {
+    "id": "ui-pekora",
+    "src": "images/IMG_0156.JPG",
+    "title": "Pekora Dashboard — Hololive Light Style",
+    "category": "Design & UI",
+    "tag": "VTuber UI",
+    "description": "Dashboard clean e interativo com widgets de clima, calendário e feeds de eventos."
+  },
+  {
+    "id": "ui-glass-academy",
+    "src": "images/IMG_0159.JPG",
+    "title": "Creative Hub — Glassmorphism Dashboard",
+    "category": "Design & UI",
+    "tag": "Glassmorphism",
+    "description": "Painel sofisticado para cursos criativos, Figma e animação com iluminação lo-fi."
+  },
+  {
+    "id": "ui-gaming-ruby",
+    "src": "images/IMG_0160.JPG",
+    "title": "Ruby Gaming — Dark Mode Metrics Center",
+    "category": "Design & UI",
+    "tag": "Dark Theme",
+    "description": "Painel de jogos e estatísticas em vermelho rubi profundo e preto azeviche com alta ergonomia visual."
+  }
+]

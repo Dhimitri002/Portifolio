@@ -1,0 +1,67 @@
+/* Temas Customizados para Dhimitri Haru Portfolio */
+:root {
+  --bg: #07050c;
+  --surface: rgba(18, 14, 28, 0.88);
+  --surface-strong: rgba(24, 18, 38, 0.96);
+  --surface-soft: rgba(32, 24, 52, 0.65);
+  --text: #fbfaff;
+  --text-dim: #c5bfdc;
+  --muted: #8e86a8;
+  --primary: #ff2a5f;
+  --primary-glow: rgba(255, 42, 95, 0.35);
+  --accent: #8b5cf6;
+  --accent-glow: rgba(139, 92, 246, 0.35);
+  --secondary: #38bdf8;
+  --gold: #f59e0b;
+  --gold-glow: rgba(245, 158, 11, 0.35);
+  --border: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(255, 42, 95, 0.25);
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+}
+
+/* Tema Padrão: Cyber Ruby & Violet (Estética Anime Futurista) */
+body.theme-ruby {
+  --bg: #07050c;
+  --surface: rgba(18, 14, 28, 0.88);
+  --surface-strong: rgba(24, 18, 38, 0.96);
+  --surface-soft: rgba(32, 24, 52, 0.65);
+  --text: #fbfaff;
+  --primary: #ff2a5f;
+  --primary-glow: rgba(255, 42, 95, 0.4);
+  --accent: #8b5cf6;
+  --border-glow: rgba(255, 42, 95, 0.3);
+}
+
+/* Tema Espiritualidade & Terreiro: Esmeralda Místico, Ouro & Axé */
+body.theme-esmeralda {
+  --bg: #050d09;
+  --surface: rgba(10, 26, 18, 0.88);
+  --surface-strong: rgba(14, 36, 25, 0.96);
+  --surface-soft: rgba(20, 52, 36, 0.65);
+  --text: #f4fff9;
+  --text-dim: #b8ded0;
+  --muted: #7ca896;
+  --primary: #10b981;
+  --primary-glow: rgba(16, 185, 129, 0.4);
+  --accent: #f59e0b;
+  --accent-glow: rgba(245, 158, 11, 0.4);
+  --secondary: #06b6d4;
+  --border-glow: rgba(16, 185, 129, 0.3);
+}
+
+/* Tema Neo Anime: Ciano Elétrico, Magenta & Neon */
+body.theme-anime {
+  --bg: #060913;
+  --surface: rgba(12, 19, 38, 0.88);
+  --surface-strong: rgba(17, 27, 54, 0.96);
+  --surface-soft: rgba(24, 38, 76, 0.65);
+  --text: #f0f7ff;
+  --text-dim: #adc4e2;
+  --muted: #7390b7;
+  --primary: #06b6d4;
+  --primary-glow: rgba(6, 182, 212, 0.4);
+  --accent: #ec4899;
+  --accent-glow: rgba(236, 72, 153, 0.4);
+  --secondary: #8b5cf6;
+  --border-glow: rgba(6, 182, 212, 0.3);
+}

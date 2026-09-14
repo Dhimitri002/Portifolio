@@ -1,0 +1,22 @@
+{
+  "title": "Música & Ukulele",
+  "subtitle": "Harmonia, ritmo e sensibilidade nas quatro cordas",
+  "intro": "Entre horas de código e arquitetura de sistemas, o ukulele é o meu instrumento de paz e expressão. Tocar ukulele me conecta com o momento presente, exercita a criatividade sob outro prisma e traduz em som aquilo que a lógica das telas não consegue descrever.",
+  "philosophy": "A música e a programação são irmãs: ambas lidam com padrões, pausas, compassos e harmonia. Quando as cordas vibram, o pensamento se renova.",
+  "videos": [
+    {
+      "id": "ukulele-session-1",
+      "src": "perfil/IMG_0871.MOV",
+      "title": "Sessão Ukulele — Ritmo & Alma",
+      "tag": "Acústico Autoral",
+      "description": "Dedilhados e levadas no ukulele gravados em momento de pura conexão musical."
+    },
+    {
+      "id": "ukulele-session-2",
+      "src": "perfil/Photos/IMG_0881.mov",
+      "title": "Sessão Acústica — Acordes & Leveza",
+      "tag": "Performance Pessoal",
+      "description": "Explorando harmonias e dedilhados nas cordas acústicas."
+    }
+  ]
+}

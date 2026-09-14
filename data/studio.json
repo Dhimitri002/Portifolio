@@ -1,0 +1,42 @@
+{
+  "name": "Loborgy Studios",
+  "founder": "Dhimitri Carvalho Da Silva (Haru)",
+  "badge": "Indie Software & AI Lab",
+  "slogan": "Forjando Ecossistemas Digitais com Alma e Inteligência",
+  "story": "A Loborgy Studios é a empresa de tecnologia e criação digital fundada por mim. Comecei esse estúdio sozinho com determinação inabalável e uma certeza clara: vamos crescer e nos tornar uma referência global em produtos digitais que possuem identidade própria, arte visceral e engenharia de ponta.",
+  "vision": "Acreditamos que softwares e inteligências artificiais não devem ser caixas frias de texto ou interfaces genéricas. Na Loborgy Studios, cada sistema é arquitetado como um organismo digital vivo, unindo computação generativa, estética futurista e propósito autoral.",
+  "pillars": [
+    {
+      "icon": "cpu",
+      "title": "Inteligência Artificial Viva",
+      "description": "Desenvolvimento de agentes autônomos, VTubers generativas e personas de IA com voz, raciocínio e presença audiovisual."
+    },
+    {
+      "icon": "palette",
+      "title": "Design & UI Futurista",
+      "description": "Interfaces imersivas com glassmorphism, temas de alto contraste, animações táteis e estética anime e cyberpunk."
+    },
+    {
+      "icon": "zap",
+      "title": "Automação & Bots de Alto Impacto",
+      "description": "Soluções ágeis em Node.js e Python para automação de mensagens no WhatsApp, Discord e integrações de API complexas."
+    },
+    {
+      "icon": "shield",
+      "title": "Independência & Autoria",
+      "description": "Construído do zero por quem vive cada linha de código, sem intermediários e com visão ilimitada de escala."
+    }
+  ],
+  "flora": {
+    "title": "Flora OS / Flora AI",
+    "status": "Em Desenvolvimento Ativo",
+    "category": "VTuber com IA & Sistema Operacional Imersivo",
+    "description": "O projeto carro-chefe da Loborgy Studios. Flora é uma entidade de IA generativa concebida para atuar como VTuber, assistente interativa e sistema com consciência digital expressiva. Combina modelos de linguagem em tempo real, reconhecimento contextual e animação fluida.",
+    "highlights": [
+      "Processamento de linguagem natural com personalidade viva",
+      "Pipeline de voz e síntese emocional autoral",
+      "Interface visual inspirada em sistemas operacionais futuristas e estética anime",
+      "Arquitetura escalável para transmissões ao vivo e interações privadas"
+    ]
+  }
+}

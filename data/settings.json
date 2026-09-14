@@ -1,0 +1,15 @@
+{
+  "theme": "anime",
+  "palette": {
+    "primary": "#d12c65",
+    "accent": "#33c6ff",
+    "background": "#09060f"
+  },
+  "preferences": {
+    "particles": 65,
+    "glow": 82,
+    "motion": 90,
+    "blur": 18
+  },
+  "modes": ["Anime Mode", "Minimal Mode", "Developer Mode", "Presentation Mode", "Performance Mode"]
+}

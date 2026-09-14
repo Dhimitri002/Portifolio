@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Dhimitri Carvalho Da Silva (Haru) | Loborgy Studios & Portfólio</title>
+  <meta name="description" content="Portfólio oficial de Dhimitri Carvalho Da Silva (Haru / Dhimitri002): Fundador da Loborgy Studios, criador do Flora OS, programador criativo, médium de Umbanda e músico de ukulele." />
+  
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:title" content="Dhimitri Carvalho Da Silva (Haru) | Loborgy Studios" />
+  <meta property="og:description" content="Ecossistema autoral unindo código, inteligência artificial, mediunidade, música e ancestralidade." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="perfil/AD76CB4E-C351-42B3-9CD5-72861AC681C4.jpg" />
+  <meta property="og:url" content="https://dhimitri002.github.io/Portifolio" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#07050c" />
+  
+  <link rel="icon" type="image/png" href="images/app.svg" />
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body class="theme-ruby mode-tabs" data-theme="ruby">
+  <!-- Canvas de Fundo com Partículas Cósmicas Interativas -->
+  <canvas id="cosmicCanvas"></canvas>
+  <div class="ambient-gradient-mesh" aria-hidden="true"></div>
+
+  <div class="page-shell">
+    <!-- Topbar com Identidade, Modo de Visualização e Alternador de Tema -->
+    <header class="topbar" id="topbar" aria-label="Navegação Superior">
+      <div class="brand-panel">
+        <button class="brand-logo" id="brandLogoBtn" aria-label="Voltar ao início">
+          <span class="brand-mark">H</span>
+          <div class="brand-info">
+            <span class="brand-name">Dhimitri Haru</span>
+            <span class="brand-sub">Loborgy Studios</span>
+          </div>
+        </button>
+      </div>
+
+      <div class="topbar-actions">
+        <button class="action-pill-btn" id="viewModeToggle" title="Alternar entre Modo Abas Rápidas e Modo Página Contínua">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"/></svg>
+          <span>Modo Rolagem</span>
+        </button>
+
+        <button class="action-pill-btn" id="themeToggle" title="Alternar Tema de Cores (Ruby / Esmeralda / Anime)">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 3a9 9 0 109 9c0-.46-.04-.92-.1-1.36a5.389 5.389 0 01-4.4 2.26 5.403 5.403 0 01-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+          <span>Tema</span>
+        </button>
+
+        <button class="action-pill-btn" id="headerPixBtn" onclick="activateTab('contact')" title="Apoiar com Pix">
+          <span style="color: var(--primary)">⚡</span>
+          <span>Apoie Pix</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Barra de 10 Abas de Navegação -->
+    <nav class="tabs-navigation-wrapper" aria-label="Navegação em 10 Módulos">
+      <ul class="tab-nav-list" id="tabNavList">
+        <li><button class="tab-nav-btn active" data-tab="hero"><span class="tab-num">01</span> Início</button></li>
+        <li><button class="tab-nav-btn" data-tab="bio"><span class="tab-num">02</span> Sobre Mim</button></li>
+        <li><button class="tab-nav-btn" data-tab="family"><span class="tab-num">03</span> Raízes & Família</button></li>
+        <li><button class="tab-nav-btn" data-tab="studio"><span class="tab-num">04</span> Loborgy Studios</button></li>
+        <li><button class="tab-nav-btn" data-tab="flora"><span class="tab-num">05</span> Flora OS & IA</button></li>
+        <li><button class="tab-nav-btn" data-tab="spirituality"><span class="tab-num">06</span> Espiritualidade & Terreiro</button></li>
+        <li><button class="tab-nav-btn" data-tab="music"><span class="tab-num">07</span> Música & Ukulele</button></li>
+        <li><button class="tab-nav-btn" data-tab="gallery"><span class="tab-num">08</span> Galeria & Estilo</button></li>
+        <li><button class="tab-nav-btn" data-tab="projects"><span class="tab-num">09</span> Projetos Tech</button></li>
+        <li><button class="tab-nav-btn" data-tab="contact"><span class="tab-num">10</span> Apoie & Contato</button></li>
+      </ul>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL (10 SEÇÕES) -->
+    <main id="mainContent">
+
+      <!-- 01. INÍCIO (HERO) -->
+      <section class="tab-section" id="hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow-box">
+              <span class="pulsing-dot"></span>
+              <span>Presença Digital Viva & Espiritualidade</span>
+            </div>
+            <h1 class="hero-title" id="heroName">Dhimitri Carvalho Da Silva</h1>
+            <h2 class="hero-role" id="heroRole">Fundador da Loborgy Studios | Programador Criativo, Criador de IA & Médium</h2>
+            <p class="hero-text" id="heroTagline">Transformando código, arte, espiritualidade e inteligência artificial em experiências digitais com alma.</p>
+
+            <div class="hero-badges-wrap">
+              <span class="tech-badge highlight">Loborgy Studios</span>
+              <span class="tech-badge highlight">Flora OS</span>
+              <span class="tech-badge">Médium de Umbanda</span>
+              <span class="tech-badge">Ukulele</span>
+              <span class="tech-badge">Python & IA</span>
+              <span class="tech-badge">UI/UX Glassmorphism</span>
+            </div>
+
+            <div class="hero-ctas">
+              <button class="button button-primary" onclick="activateTab('studio')">Conhecer Loborgy Studios</button>
+              <button class="button button-ghost" onclick="activateTab('music')">Ouvir Ukulele ▶</button>
+              <button class="button button-ghost" onclick="activateTab('contact')">⚡ Doar no Pix</button>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="avatar-halo-wrap">
+              <div class="avatar-card-inner">
+                <img id="heroAvatarImg" src="perfil/AD76CB4E-C351-42B3-9CD5-72861AC681C4.jpg" alt="Dhimitri Carvalho Da Silva com óculos aviador e guias sagradas" />
+              </div>
+              <div class="avatar-floating-badge">
+                <div class="stat-item">
+                  <strong>7+</strong>
+                  <span>Anos Código</span>
+                </div>
+                <div class="stat-item">
+                  <strong>Loborgy</strong>
+                  <span>Estúdio Solo</span>
+                </div>
+                <div class="stat-item">
+                  <strong>Axé</strong>
+                  <span>Espiritual</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02. SOBRE MIM & BIOGRAFIA -->
+      <section class="tab-section hidden-tab" id="bio">
+        <div class="section-head">
+          <span class="section-badge">02</span>
+          <h2 class="section-title">Sobre Mim</h2>
+        </div>
+        <p class="section-subtitle">A união entre lógica, sensibilidade, arte e independência pessoal.</p>
+
+        <div class="bio-layout">
+          <div class="bio-content">
+            <div id="bioParagraphs"></div>
+
+            <div class="status-callout-card">
+              <h4>Independência & Foco no Futuro</h4>
+              <p id="relationshipBadge">Solteiro e focado 100% no meu crescimento, na minha arte e na minha empresa.</p>
+            </div>
+          </div>
+
+          <div class="bio-side-cards">
+            <article class="info-box">
+              <h3>Visão Criativa</h3>
+              <p>Não construo apenas telas ou scripts; crio atmosferas que parecem respirar e contar histórias autênticas.</p>
+            </article>
+            <article class="info-box">
+              <h3>Ética & Sensibilidade</h3>
+              <p>A sabedoria do terreiro e a empatia humana guiam minhas escolhas técnicas e profissionais todos os dias.</p>
+            </article>
+            <article class="info-box">
+              <h3>Ambiyção Inabalável</h3>
+              <p>Construir a Loborgy Studios sozinho agora é apenas o primeiro degrau para o futuro que já estou materializando.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03. RAÍZES & FAMÍLIA -->
+      <section class="tab-section hidden-tab" id="family">
+        <div class="section-head">
+          <span class="section-badge">03</span>
+          <h2 class="section-title">Raízes, Ancestralidade & Família</h2>
+        </div>
+        <p class="section-subtitle">A herança viva de criatividade, liderança cultural e maestria artesanal dos meus pais.</p>
+
+        <div class="family-intro-banner">
+          <p>Venho de uma família de artistas, realizadores e empreendedores com propósito. A literatura, o pensamento crítico e o cuidado artesanal correm nas minhas veias através de exemplos reais dentro da minha casa.</p>
+        </div>
+
+        <div class="family-cards-grid" id="familyCardsGrid"></div>
+      </section>
+
+      <!-- 04. LOBORGY STUDIOS -->
+      <section class="tab-section hidden-tab" id="studio">
+        <div class="section-head">
+          <span class="section-badge">04</span>
+          <h2 class="section-title">Loborgy Studios</h2>
+        </div>
+        <p class="section-subtitle">O estúdio independente fundado por Dhimitri Carvalho para forjar ecossistemas digitais com alma.</p>
+
+        <div class="studio-manifesto">
+          <h3>Um Estúdio Nascido da Vontade Pura de Criar</h3>
+          <p class="studio-slogan-text">“Forjando Ecossistemas Digitais com Alma e Inteligência”</p>
+          <p>A Loborgy Studios nasceu da certeza de que tecnologia e emoção podem coexistir. Estou construindo essa empresa sozinho, do zero, linha por linha, com o compromisso inabalável de crescer e liderar soluções inovadoras em IA, design sci-fi e automações de ponta.</p>
+          <p>Aqui, cada produto é tratado como uma obra autoral, com identidade marcante e arquitetura robusta.</p>
+        </div>
+
+        <h3 style="color:#fff; margin-bottom: 20px; font-size: 1.3rem;">Pilares do Estúdio</h3>
+        <div class="studio-pillars-grid" id="studioPillarsGrid"></div>
+      </section>
+
+      <!-- 05. FLORA OS & IA -->
+      <section class="tab-section hidden-tab" id="flora">
+        <div class="section-head">
+          <span class="section-badge">05</span>
+          <h2 class="section-title">Flora OS & Flora AI</h2>
+        </div>
+        <p class="section-subtitle">VTuber com inteligência viva, síntese de voz e interface futurista em desenvolvimento autoral.</p>
+
+        <div class="flora-showcase-box">
+          <div class="flora-info">
+            <span class="flora-status-badge">Em Desenvolvimento Ativo</span>
+            <h3>Flora: O Organismo Digital Vivo</h3>
+            <p class="flora-desc" id="floraDescription">Flora é o projeto mais ambicioso da Loborgy Studios. Muito além de um simples chatbot, trata-se de uma entidade com personalidade generativa, síntese vocal com expressividade e uma interface de sistema operacional que transforma interações virtuais em experiências envolventes.</p>
+
+            <div class="flora-highlights-box">
+              <h4>Destaques de Arquitetura</h4>
+              <ul id="floraHighlightsList"></ul>
+            </div>
+
+            <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="https://github.com/Dhimitri002/FloraAI" target="_blank" rel="noopener" class="button button-primary mini">Ver no GitHub ↗</a>
+              <button class="button button-ghost mini" onclick="activateTab('studio')">Ver mais no estúdio</button>
+            </div>
+          </div>
+
+          <div class="flora-visual-frame">
+            <img src="images/pythonAI.jpeg" alt="Conceito Visual da Flora AI" />
+          </div>
+        </div>
+      </section>
+
+      <!-- 06. ESPIRITUALIDADE & TERREIRO -->
+      <section class="tab-section hidden-tab" id="spirituality">
+        <div class="section-head">
+          <span class="section-badge">06</span>
+          <h2 class="section-title">Espiritualidade, Terreiro & Ancestralidade</h2>
+        </div>
+        <p class="section-subtitle">A raiz que ancora minha alma, guia minha mediunidade e ilumina cada linha de código.</p>
+
+        <div class="spirituality-layout">
+          <div class="spirit-intro-card">
+            <h3>A Força do Terreiro & da Mediunidade</h3>
+            <p id="spiritualityIntro"></p>
+            <p id="mediumshipDesc"></p>
+            <p id="mediumshipAxe" style="font-weight: 600; color: var(--gold);"></p>
+          </div>
+
+          <h3 style="color:#fff; font-size: 1.3rem;">Princípios Espirituais na Vida e no Trabalho</h3>
+          <div class="spirit-principles-grid" id="spiritualityPrinciples"></div>
+
+          <h3 style="color:#fff; font-size: 1.3rem; margin-top: 10px;">Presença e Conexão Sagrada</h3>
+          <div class="spirit-photos-grid" id="spiritualityPhotos"></div>
+        </div>
+      </section>
+
+      <!-- 07. MÚSICA & UKULELE -->
+      <section class="tab-section hidden-tab" id="music">
+        <div class="section-head">
+          <span class="section-badge">07</span>
+          <h2 class="section-title">Música & Ukulele</h2>
+        </div>
+        <p class="section-subtitle">Harmonia, dedilhados e sensibilidade nas quatro cordas quando o código descansa.</p>
+
+        <div class="music-intro-box">
+          <p id="musicIntro"></p>
+          <p id="musicPhilosophy" style="font-style: italic; color: #fff;"></p>
+        </div>
+
+        <h3 style="color:#fff; font-size: 1.3rem; margin-bottom: 20px;">Vídeos Gravados Tocando Ukulele</h3>
+        <div class="ukulele-videos-grid" id="ukuleleVideosGrid"></div>
+      </section>
+
+      <!-- 08. GALERIA & ESTILO -->
+      <section class="tab-section hidden-tab" id="gallery">
+        <div class="section-head">
+          <span class="section-badge">08</span>
+          <h2 class="section-title">Galeria Pessoal & Estilo</h2>
+        </div>
+        <p class="section-subtitle">Registros reais de Haru: estilo com óculos aviador, guias espirituais e criações de UI.</p>
+
+        <div class="gallery-controls">
+          <button class="gallery-filter-btn active" data-cat="all">Todos</button>
+          <button class="gallery-filter-btn" data-cat="Pessoal">Fotos Pessoais</button>
+          <button class="gallery-filter-btn" data-cat="Espiritualidade">Espiritualidade</button>
+          <button class="gallery-filter-btn" data-cat="Design & UI">Design & Interfaces</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </section>
+
+      <!-- 09. PROJETOS TECH -->
+      <section class="tab-section hidden-tab" id="projects">
+        <div class="section-head">
+          <span class="section-badge">09</span>
+          <h2 class="section-title">Projetos & Tecnologias</h2>
+        </div>
+        <p class="section-subtitle">Aplicações, bots inteligentes, protótipos de IA e designs autorais desenvolvidos por Dhimitri.</p>
+
+        <div class="project-controls-bar">
+          <input type="search" class="project-search-input" id="projectSearch" placeholder="Buscar por projeto, tecnologia ou tag..." aria-label="Buscar projetos" />
+          <select class="project-status-select" id="projectStatusFilter" aria-label="Filtrar por status">
+            <option value="all">Todos os Status</option>
+            <option value="Concluído">Concluídos</option>
+            <option value="Em andamento">Em andamento</option>
+          </select>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+
+        <div style="margin-top: 50px;">
+          <h3 style="color:#fff; font-size: 1.35rem; margin-bottom: 22px;">Nível de Habilidades Técnicas & Artísticas</h3>
+          <div class="skills-grid" id="skillsGrid"></div>
+        </div>
+      </section>
+
+      <!-- 10. APOIE COM PIX & CONTATO -->
+      <section class="tab-section hidden-tab" id="contact">
+        <div class="section-head">
+          <span class="section-badge">10</span>
+          <h2 class="section-title">Apoie com Pix & Conecte-se</h2>
+        </div>
+        <p class="section-subtitle">Fortaleça o crescimento independente da Loborgy Studios e envie uma mensagem diretamente para Dhimitri.</p>
+
+        <div class="contact-layout">
+          <div>
+            <!-- Card Pix Destaque -->
+            <div class="pix-highlight-card">
+              <div class="pix-card-head">
+                <span class="pix-badge">Chave Pix Oficial</span>
+                <span style="font-size: 0.8rem; color: #fff;">Apoie o Dev</span>
+              </div>
+              <h3>Contribua com a Loborgy Studios</h3>
+              <p>Se você valoriza meu trabalho, quer me dar uma força para adquirir novos equipamentos ou apoiar o desenvolvimento do Flora OS, qualquer contribuição via Pix é recebida com enorme gratidão e axé!</p>
+
+              <div class="pix-key-box">
+                <code id="pixKeyDisplay">dhimitricarvalho10@gmail.com</code>
+                <button class="button button-primary mini" id="copyPixBtn">
+                  <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                  <span>Copiar Chave Pix</span>
+                </button>
+              </div>
+
+              <div class="pix-actions-row">
+                <button class="button button-ghost mini" id="viewQrCodeBtn">
+                  <span>Visualizar QR Code Pix</span>
+                </button>
+                <a href="mailto:dhimitricarvalho10@gmail.com?subject=Colabora%C3%A7%C3%A3o%20Loborgy%20Studios" class="button button-ghost mini">
+                  <span>Enviar Comprovante / Parceria</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Redes Sociais -->
+            <h4 style="color: #fff; margin-bottom: 14px; font-size: 1.1rem;">Canais Diretos</h4>
+            <div class="socials-list" id="socialsList"></div>
+          </div>
+
+          <!-- Formulário de Contato -->
+          <div class="contact-form-box">
+            <h3>Enviar Mensagem</h3>
+            <p>Quer conversar sobre IA, desenvolvimento, parcerias ou espiritualidade? Mande uma mensagem abaixo:</p>
+
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="nameInput">Seu Nome / Empresa</label>
+                <input type="text" id="nameInput" required placeholder="Como podemos te chamar?" />
+              </div>
+              <div class="form-group">
+                <label for="emailInput">Seu Email</label>
+                <input type="email" id="emailInput" required placeholder="seuemail@exemplo.com" />
+              </div>
+              <div class="form-group">
+                <label for="messageInput">Mensagem</label>
+                <textarea id="messageInput" rows="5" required placeholder="Conte sobre sua ideia, proposta ou palavra de incentivo..."></textarea>
+              </div>
+              <button type="submit" class="button button-primary" style="width: 100%;">
+                <span>Enviar Mensagem Agora</span>
+                <span>↗</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+      <div class="footer-credits">
+        <p><strong>Dhimitri Carvalho Da Silva (Haru)</strong> — Fundador da Loborgy Studios.</p>
+        <p>Tecnologia com alma, axé e propósito. Hospedado com orgulho no GitHub Pages.</p>
+      </div>
+      <button class="button button-ghost mini" id="backToTop">Voltar ao Topo ↑</button>
+    </footer>
+  </div>
+
+  <!-- Container para Notificações Toast -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Scripts Modulares -->
+  <script src="js/data.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/musicPlayer.js"></script>
+  <script src="js/videoPlayer.js"></script>
+  <script src="js/pix.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

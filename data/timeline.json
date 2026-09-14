@@ -1,0 +1,27 @@
+[
+  {
+    "year": "2020",
+    "title": "Primeiros projetos web",
+    "description": "Iniciei construindo páginas com HTML e CSS, descobrindo a paixão por design, interfaces e animações." 
+  },
+  {
+    "year": "2022",
+    "title": "IA e automações",
+    "description": "Aprofundei Python, criei bots de Discord e desenvolvi protótipos de IA com personalidade." 
+  },
+  {
+    "year": "2023",
+    "title": "Flora e presença digital",
+    "description": "Lancei o conceito da Flora AI e criei uma interface autoral para uma personagem virtual inspirada em anime." 
+  },
+  {
+    "year": "2024",
+    "title": "Portfólio vivo",
+    "description": "Desenvolvi um site estilo painel com navegação suave, temas e modo admin direto no navegador." 
+  },
+  {
+    "year": "Em breve",
+    "title": "Projetos com alma",
+    "description": "Expandir a presença digital com experiências que misturam tarot, filosofia e tecnologia criativa." 
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Python & IA",
+    "category": "Inteligência Artificial",
+    "level": 95,
+    "description": "Desenvolvimento de personas de IA, automações complexas, integração com LLMs e o ecossistema Flora OS."
+  },
+  {
+    "name": "Chatbots & WhatsApp APIs",
+    "category": "Automação",
+    "level": 92,
+    "description": "Criação de bots conversacionais no WhatsApp e Discord com roteamento dinâmico e resposta contextual."
+  },
+  {
+    "name": "JavaScript (ES6+) & Node.js",
+    "category": "Desenvolvimento",
+    "level": 90,
+    "description": "Aplicações assíncronas, manipulação de DOM de alta performance e microsserviços."
+  },
+  {
+    "name": "UI/UX & Glassmorphism",
+    "category": "Design & Interfaces",
+    "level": 94,
+    "description": "Criação de dashboards futuristas, paletas de alto impacto (Cyber Ruby / Dark), microinterações e ergonomia tátil."
+  },
+  {
+    "name": "HTML5 Semântico & CSS3 Moderno",
+    "category": "Front-end",
+    "level": 96,
+    "description": "Layouts responsivos, CSS Grid, Flexbox, efeitos de partículas, backdrop-filter e animações fluidas."
+  },
+  {
+    "name": "Música & Ukulele",
+    "category": "Arte & Sensibilidade",
+    "level": 85,
+    "description": "Sensibilidade harmônica nas quatro cordas, ritmo e dedilhados que trazem leveza à mente do desenvolvedor."
+  },
+  {
+    "name": "Arquitetura de Sistemas & Loborgy OS",
+    "category": "Engenharia de Software",
+    "level": 88,
+    "description": "Estruturação autoral de projetos escaláveis, versionamento Git e deploy estático otimizado no GitHub Pages."
+  },
+  {
+    "name": "Mediunidade & Visão Intuitiva",
+    "category": "Espiritualidade",
+    "level": 90,
+    "description": "Equilíbrio energético no terreiro de Umbanda, intuição afiada e respeito irrestrito à ancestralidade."
+  }
+]

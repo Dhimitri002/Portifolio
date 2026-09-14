@@ -1,0 +1,35 @@
+{
+  "title": "Raízes, Ancestralidade & Família",
+  "subtitle": "A força de onde venho alimenta a grandeza de onde vou chegar",
+  "description": "Venho de uma família de artistas, realizadores e empreendedores com propósito. A criatividade, a literatura, o trabalho manual meticuloso e a busca pela excelência correm nas minhas veias através dos meus pais.",
+  "members": [
+    {
+      "id": "father",
+      "relation": "Pai",
+      "name": "Alexsandro Da Silva Brito (Alex Brito)",
+      "title": "CEO & Fundador da Revista Aorta",
+      "tag": "Literatura & Cultura Internacional",
+      "bio": "Empreendedor cultural, escritor e líder editorial que em 2021 fundou em Camaçari/Bahia a Revista Aorta. Hoje, uma respeitada revista literária internacional com circulação física e digital, dedicada à difusão da arte, da memória ancestral, do pensamento crítico e da literatura que conecta territórios e futuros.",
+      "achievements": [
+        "Fundador e Diretor Geral da Revista Aorta",
+        "Publicação com circulação nacional e internacional",
+        "Reconhecimento pela valorização da escrita, ancestralidade e arte independente"
+      ],
+      "quote": "A literatura é uma casa de palavras: uma ponte viva entre territórios, memórias e futuros."
+    },
+    {
+      "id": "mother",
+      "relation": "Mãe",
+      "name": "Wila Caroline Carvalho Barros",
+      "title": "Criadora & Dona do Wila Ateliê",
+      "tag": "Costura Criativa & Arte Feita à Mão",
+      "bio": "Artesã, estilista e empreendedora à frente do Wila Ateliê. Especializada em confecção autoral, costura criativa, patchwork, bonecas e artigos de decoração de alto padrão. Seu trabalho une precisão técnica, carinho e uma sensibilidade artística impecável em cada ponto costurado.",
+      "achievements": [
+        "Fundadora e Mestre Artesã no Wila Ateliê",
+        "Especialista em Patchwork e Costura Criativa Personalizada",
+        "Mais de uma década transformando tecidos em peças com afeto e durabilidade"
+      ],
+      "quote": "O verdadeiro artesanato nasce do coração e ganha forma através da dedicação e do amor."
+    }
+  ]
+}

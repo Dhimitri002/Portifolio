@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Design de Interface",
+    "description": "Criação de painéis, landing pages e sistemas com estética anime e usabilidade premium.",
+    "detail": "UI/UX, prototipagem, experiência visual"
+  },
+  {
+    "title": "Automação & Bots",
+    "description": "Desenvolvimento de bots de Discord, WhatsApp e automações com fluxo inteligente.",
+    "detail": "Bots, scripts, integrações" 
+  },
+  {
+    "title": "Experimentos com IA",
+    "description": "Protótipos de IA criativa, assistentes de personagens e projetos de presença digital.",
+    "detail": "ML, Python, APIs de IA"
+  },
+  {
+    "title": "Páginas Autoral",
+    "description": "Sites e portfólios que parecem produtos, com identidade forte e narrativa visual.",
+    "detail": "HTML, CSS, JS, animação"
+  },
+  {
+    "title": "Branding Digital",
+    "description": "Construção de identidade pessoal online com estética única, cores e detalhes memoráveis.",
+    "detail": "Marca, estilo, storytelling"
+  },
+  {
+    "title": "Painel de Controle",
+    "description": "Sistema local de configuração e edição para atualizar conteúdo sem backend.",
+    "detail": "Configurações, JSON, painel" 
+  }
+]
